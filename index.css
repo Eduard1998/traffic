@@ -1,0 +1,148 @@
+.titel-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.select {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    margin-left: 25vw;
+    display: flex;
+}
+
+.wrapper-one > .wrapper-image-centr-lamps {
+    width: 43vw;
+    height: 43vw;
+    position: fixed;
+    background-image: url(https://cdn.pixabay.com/photo/2014/04/02/14/06/traffic-light-306154_960_720.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.wrapper-two > .wrapper-image-centr-lamps {
+    background-image: url(http://suvauto.com.ua/image/svetofor.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: fixed;
+    width: 28vw;
+    height: 36vw;
+    margin-left: 10vw;
+}
+.wrapper-three > .wrapper-image-centr-lamps {
+    position: fixed;
+    background-image: url(https://cdn.icon-icons.com/icons2/67/PNG/512/trafficlight_trafic_13246.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 30vw;
+    height: 38vw;
+    margin-left: 10vw;
+}
+
+
+.wrapper-one #red-center-lamp {
+    margin-top: 5vw; 
+}
+.wrapper-one #yellow-center-lamp {
+    margin-top: 2.4vw;
+}
+.wrapper-one #green-center-lamp {
+    margin-top: 2.4vw;
+}
+
+.wrapper-two #red-center-lamp {
+    margin-top: 2.4vw; 
+}
+.wrapper-two #yellow-center-lamp {
+    margin-top: 2.2vw;
+}
+.wrapper-two #green-center-lamp {
+    margin-top: 2.6vw;
+}
+
+.wrapper-three #red-center-lamp {
+    margin-top: 4vw; 
+}
+.wrapper-three #yellow-center-lamp {
+    margin-top: 2vw;
+}
+.wrapper-three #green-center-lamp {
+    margin-top: 2vw;
+}
+
+.wrapper-one .center-lamp {
+    margin-left: 19.4vw;
+    width: 10.4vw;
+    height: 10.4vw;
+    border-radius: 50%;
+}
+.wrapper-two .center-lamp, 
+.wrapper-three .center-lamp {
+    margin-left: 9.4vw;
+    width: 9.4vw;
+    height: 9.4vw;
+    border-radius: 50%;
+}
+
+.side-lamp {
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+}
+
+.wrapper-one .wrapper-left-lamps {
+    margin-left: 8vw;
+}
+.wrapper-two .wrapper-left-lamps,
+.wrapper-three .wrapper-left-lamps {
+    margin-left: 12vw;
+}
+
+
+.wrapper-one .wrapper-right-lamps {
+    margin-left: 17vw;
+}
+.wrapper-two .wrapper-right-lamps,
+.wrapper-three .wrapper-right-lamps {
+    margin-left: 8vw;
+}
+
+
+.wrapper-one .red-lamp {
+    margin-top: 6vw;
+} 
+.wrapper-one .yellow-lamp,
+.wrapper-one .green-lamp {
+    margin-top: 5vw;
+}
+
+
+.wrapper-two .red-lamp {
+    margin-top: 3vw;
+}
+.wrapper-two .yellow-lamp,
+.wrapper-two .green-lamp {
+    margin-top: 4vw;
+}
+
+.wrapper-three .red-lamp {
+    margin-top: 5vw;
+}
+.wrapper-three .yellow-lamp,
+.wrapper-three .green-lamp {
+    margin-top: 4vw;
+}
